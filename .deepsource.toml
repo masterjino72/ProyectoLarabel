@@ -3,5 +3,8 @@ version = 1
 [[analyzers]]
 name = "php"
 
+  [analyzers.meta]
+  bootstrap_files = ["4"]
+
 [[transformers]]
 name = "php-cs-fixer"
